@@ -27,7 +27,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'techsphere.urls'
+ROOT_URLCONF = 'tech_sphere.urls'
 
 TEMPLATES = [
     {
@@ -45,7 +45,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'techsphere.wsgi.application'
+WSGI_APPLICATION = 'tech_sphere.wsgi.application'
 
 DATABASES = {
     'default': {
